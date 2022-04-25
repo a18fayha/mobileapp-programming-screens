@@ -1,7 +1,3 @@
-```
-# Rapport
-
-**Skriv din rapport här!**
 
 - Created a new xml file for the new Activity, which automatically generated a new class and added the second activity in the manifest file.
 - Added a button to the main activity,  which when clicked on is going to start the second activity.
@@ -33,8 +29,13 @@ button = findViewById(R.id.button);
                 startActivity(intent);
             }
 ```
-- In the second activity xml file i created 2 textViews. One which shows that we are on the second activity and one that shows the extra that
-  we added to the intent in the main activity.activity.
+
+
+In the second activity xml file i created 2 textViews. One which shows that we are on the second activity and one that shows the extra that
+we added to the intent in the main activity.activity.
+
+
+
 
 ```
 <TextView
