@@ -61,13 +61,12 @@ we added to the intent in the main activity.activity.
         app:layout_constraintTop_toTopOf="parent" />
 ```
 
-- Added a bundle in the SecondActivity class to receive the extras we passed in the intent  and set it to the data textView so that it shows
-  on the screen.
+Added a bundle in the SecondActivity class to receive the extras we passed in the intent  and set it to the data textView so that it shows
+on the screen.
 
 
 
 
-```
 
 Bundle extras = getIntent().getExtras();
         if(extras != null){
@@ -75,6 +74,5 @@ Bundle extras = getIntent().getExtras();
             myName.setText(name);
         }
 
-```
 
 ![](android.png)
