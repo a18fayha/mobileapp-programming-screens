@@ -73,6 +73,4 @@ Bundle extras = getIntent().getExtras();
 
 ```
 
-![](MainActivity.png)
-
-![](SecondActivity.png)
+![](android.png)
