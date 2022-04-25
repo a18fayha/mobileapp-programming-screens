@@ -48,7 +48,7 @@ we added to the intent in the main activity.activity.
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-```
+
     <TextView
         android:id="@+id/data"
         android:textSize="30sp"
@@ -61,18 +61,20 @@ we added to the intent in the main activity.activity.
         app:layout_constraintTop_toTopOf="parent" />
 ```
 
+
 Added a bundle in the SecondActivity class to receive the extras we passed in the intent  and set it to the data textView so that it shows
 on the screen.
 
 
 
 
-
+```
 Bundle extras = getIntent().getExtras();
         if(extras != null){
             String name = extras.getString("name");
             myName.setText(name);
         }
+```
 
 
 ![](android.png)
