@@ -47,7 +47,7 @@ button = findViewById(R.id.button);
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+```
     <TextView
         android:id="@+id/data"
         android:textSize="30sp"
@@ -62,6 +62,9 @@ button = findViewById(R.id.button);
 
 - Added a bundle in the SecondActivity class to receive the extras we passed in the intent  and set it to the data textView so that it shows
   on the screen.
+
+
+
 
 ```
 
